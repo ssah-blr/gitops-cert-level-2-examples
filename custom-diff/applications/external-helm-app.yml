@@ -20,12 +20,5 @@ spec:
   # Sync policy
   syncPolicy:
     syncOptions:
-      - CreateNamespace=true
-      
-  ignoreDifferences:
-    - group: "*"
-      kind: Secret
-      name: example-secret
-      namespace: example02
-      jsonPointers:
-      - my-password
+      - CreateNamespace=true  
+   
